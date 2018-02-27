@@ -1,0 +1,72 @@
+body 
+{
+    margin: 10px;
+    /*  Background fallback in case of IE8 & down, or in case video doens't load, such as with slower connections  */
+    background: #333;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    right: 0;
+    bottom: 0;
+    text-align: left;
+    font-size: 25px;
+    font-family: Impact, Charcoal, sans-serif;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+h1 
+{
+    top: 25px;
+    width: 100%;
+    font-size: 75px;
+    letter-spacing: 2px;
+    color: #a8c9ff;
+}
+
+a:link 
+{
+    color: #2c6cba;
+}
+
+/* visited link */
+a:visited 
+{
+    color: #193f6d;
+}
+
+/* mouse over link */
+a:hover 
+{
+    color: #87b1e5;
+}
+
+/* selected link */
+a:active 
+{
+    color: #7387a0;
+}
+
+h2 {
+    bottom: 200px;
+}
+
+#video-background 
+{
+    /*  making the video fullscreen  */
+    volume : 0;
+    position: fixed;
+    left: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto;
+    z-index: -100;
+}
+
+
+
