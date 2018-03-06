@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<link href='style.css' rel='stylesheet' type='text/css'>
+
+<!--
+-->
+
+<title>Manual Career and Technical Center</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<body>
+    
+    <video autoplay loop id="myVideo" muted>
+        <source src="health.mp4" type="video/mp4" >
+        Your browser does not support HTML5 video.
+    </video>
+    
+    <div class="content">
+        
+        <h1>Manual Career and Technical Center</h1>
+        <h2>We prepare students for a wide-range of careers by offering programs that incorporate rigorous academic and technical standards. Career and Technical Education (CTE) 
+            programs provide students critical workforce skills such as problem solving, communication, and teamwork to ensure career and college success for all students.</h2>
+        <p></p>
+        
+        <button id="myBtn" onclick="gotoHome()">Home</button></br>
+        <button id="myBtn" onclick="gotoAutoRepair()">Auto Repair</button></br>
+        <button id="myBtn" onclick="gotoAutoTech()">Auto Tech</button></br>
+        <button id="myBtn" onclick="gotoCoding()">C++ and Java</button></br>
+        <button id="myBtn" onclick="gotoConstruction()">Construction</button></br>
+        <button id="myBtn" onclick="gotoCulinary()">Culinary</button></br>
+        <button id="myBtn" onclick="gotoEMT()">EMT</button></br>
+        <button id="myBtn" onclick="gotoEngineering()">Engineering</button></br>
+        <button id="myBtn" onclick="gotoHealth()">Health / CNA</button></br>
+        <button id="myBtn" onclick="gotoContact()">Contact</button></br>
+        <p></p>
+        
+        <button id="pauseBtn" onclick="myFunction()">Pause/Unpause</button></br>
+    </div>
+    
+    <script>
+        var video = document.getElementById("myVideo");
+        var btn = document.getElementById("myBtn");
+            
+        function gotoHome() {
+            window.location="index.html";
+        }
+            
+        function gotoAutoRepair() {
+            window.location="autorepair.html";
+        }
+        
+        function gotoAutoTech() {
+            window.location="autotech.html";
+        }
+        
+        function gotoCoding() {
+            window.location="coding.html";
+        }
+        
+        function gotoConstruction() {
+            window.location="construction.html";
+        }
+        
+        function gotoCulinary() {
+            window.location="culinary.html";
+        }
+        
+        function gotoEMT() {
+            window.location="emt.html";
+        }
+        
+        function gotoEngineering() {
+            window.location="engineering.html";
+        }
+        
+        function gotoHealth() {
+            window.location="health.html";
+        }
+        
+        function gotoContact() {
+            window.location="contact.html";
+        }
+            
+        function myFunction() 
+        {
+            if (video.paused) {
+                video.play();
+                btn.innerHTML = "Pause";
+            } else {
+                video.pause();
+                btn.innerHTML = "Play";
+            }
+        }           
+            
+    </script>
+</body>
+</html>
