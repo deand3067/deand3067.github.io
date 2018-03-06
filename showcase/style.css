@@ -1,12 +1,14 @@
 * 
 {
     box-sizing: border-box;
+    overflow: visible;
 }
 
 body 
 {
     font-family: Impact, Charcoal, sans-serif;
     font-size: 25px;
+    overflow: visible;
 }
 
 #myVideo {
@@ -15,6 +17,7 @@ body
     bottom: 0;
     min-width: 100%; 
     min-height: 100%;
+    overflow: visible;
     
 }
 
@@ -26,6 +29,7 @@ body
     color: #f1f1f1;
     width: 100%;
     height: 98%;
+    overflow: visible;
 }
 
 #myBtn {   
@@ -37,11 +41,13 @@ body
     background: rgba(0,0,0,0);
     color: #fff;
     cursor: pointer;
+    overflow: visible;
 }
 
 #myBtn:hover {
     background: rgba(0,0,0,0.5);
     color: white;
+    overflow: visible;
 }
 
 #pauseBtn {   
@@ -53,12 +59,14 @@ body
     background: white;
     color: black;
     cursor: pointer;
+    overflow: visible;
 }
 
 #pauseBtn {
     border: white;
     background: black;
     color: white;
+    overflow: visible;
 }
 
 #soundBtn {   
@@ -70,12 +78,14 @@ body
     background: white;
     color: black;
     cursor: pointer;
+    overflow: visible;
 }
 
 #pauseBtn {
     border: black;
     background: white;
     color: black;
+    overflow: visible;
 }
 
 h1 {
@@ -88,6 +98,7 @@ h1 {
     text-align: center;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
+    overflow: visible;
 }
 
 h2 {
@@ -101,4 +112,5 @@ h2 {
     letter-spacing: 1px;
     color: white;
     text-align: left;
+    overflow: visible;
 }
